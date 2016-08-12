@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "cb27636bebd115f284014e19b176e242",
+    "content-hash": "f78bc8ed558e7f02524886a9186b494a",
+    "packages": [
+        {
+            "name": "jaspervdm/pogoprotos-php",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jaspervdm/pogoprotos-php.git",
+                "reference": "4113cafb5a65e3b54e788beffd15a0eabbfc23d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jaspervdm/pogoprotos-php/zipball/4113cafb5a65e3b54e788beffd15a0eabbfc23d4",
+                "reference": "4113cafb5a65e3b54e788beffd15a0eabbfc23d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/protoc-gen-php/protocolbuffers.inc.php"
+                ],
+                "psr-4": {
+                    "POGOProtos\\": "src/POGOProtos"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Compiled PHP protobufs for pokemon go",
+            "time": "2016-07-23 13:17:18"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
