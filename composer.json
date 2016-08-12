@@ -1,0 +1,15 @@
+{
+    "name": "anguinus/pogo_api_php",
+    "description": "PokemonGO PHP API, translation of RocketAPI https://github.com/FeroxRev/Pokemon-Go-Rocket-API/tree/master/PokemonGo.RocketAPI",
+    "type": "library",
+    "require": {
+        "jaspervdm/pogoprotos-php": "^0.0.2"
+    },
+    "authors": [
+        {
+            "name": "Martin Endrst",
+            "email": "endrst.martin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
